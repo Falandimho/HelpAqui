@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Prompt:wght@300&family=Rubik:wght@400;700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Jost', sans-serif;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	user-select: none;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1800' height='800' preserveAspectRatio='none' viewBox='0 0 1800 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1296%26quot%3b)' fill='none'%3e%3crect width='1800' height='800' x='0' y='0' fill='url(%23SvgjsRadialGradient1297)'%3e%3c/rect%3e%3cpath d='M1800 0L1211.6399999999999 0L1800 314.44z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1211.6399999999999 0L1800 314.44L1800 324.66L880.31 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M880.31 0L1800 324.66L1800 610.61L689 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M689 0L1800 610.61L1800 710.36L630.38 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 800L255.33 800L0 623.7z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 623.7L255.33 800L574.77 800L0 305.89000000000004z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 305.89L574.77 800L749.7 800L0 194.15999999999997z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 194.15999999999997L749.7 800L1148.96 800L0 113.11999999999996z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1296'%3e%3crect width='1800' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cradialGradient cx='100%25' cy='100%25' r='1969.77' gradientUnits='userSpaceOnUse' id='SvgjsRadialGradient1297'%3e%3cstop stop-color='rgba(28%2c 15%2c 50%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(80%2c 43%2c 147%2c 1)' offset='1'%3e%3c/stop%3e%3c/radialGradient%3e%3c/defs%3e%3c/svg%3e");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.material-symbols-outlined {
+	font-variation-settings:
+		'FILL' 0,
+		'wght' 400,
+		'GRAD' 0,
+		'opsz' 48
+}
+
+h1 {
+	width: 70%;
+	text-align: center;
+	color: #2f165a;
+	position: relative;
+	top: 60px;
+}
+
+p{
+    margin-top: 0.5em;
+    color: #592875;
+}
+
+#progresso {
+    width: 80%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    gap: 0.5em;
+	font-size: 1em;
+	font-family: jost;
+	text-align: center;
+    margin-top: 0.5em;
+}
+
+#barra-concluida {
+    width: 3em;
+    height: 0.5em;
+    background-color: #2f165a;
+}
+
+#barra-restante {
+    width: 3em;
+    height: 0.5em;
+    background-color: #795091;
+}
+
+#proxima {
+	width: 12em;
+	height: 2.5em;
+	font-size: 1.2em;
+	background-color: #2f165a;
+	color: #f5f5f7;
+	position: absolute;
+	left: 140%;
+	top: 260%;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	border: 1px;
+	transition: all 0.2s linear;
+	cursor: pointer;
+	border: 1px;
+	font-size: 1em;
+	font-family: jost;
+	color: #f5f5f7;
+}
+
+#proxima:hover {
+	background: #664997;
+	transition: all 0.2s linear;
+}
+
+#voltar {
+	width: 5em;
+	height: 2em;
+	font-size: 1.2em;
+	background-color: #2f165a;
+	text-align: center;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.2s linear;
+}
+
+#voltarLINK {
+	position: absolute;
+	top: 83%;
+	left: 10%;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: jost;
+	color: #f5f5f7;
+	cursor: pointer;
+}
+
+#voltar:hover {
+	background: #664997;
+	transition: all 0.2s linear;
+}
+
+.hovertext {
+	position: relative;
+	border-bottom: 1px dotted #745d98;
+}
+
+.hovertext:before {
+	content: attr(data-hover);
+	visibility: hidden;
+	opacity: 0;
+	width: 100px;
+	background-color: #745d98;
+	color: #f5f5f7;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px 0;
+	transition: opacity 0.5s ease-in-out;
+
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 110%;
+}
+
+.hovertext:hover:before {
+	opacity: 1;
+	visibility: visible;
+}
+
+#perguntas {
+	width: 65%;
+	height: 32em;
+	position: relative;
+	top: 150px; 
+	background-color: #f5f5f7;
+	border: 1px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#respostas {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+	position: absolute;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 16em;
+}
+
+input[type="radio"] {
+	visibility: hidden;
+}
+
+.feliz {
+	width: 4em;
+	height: 4em;
+	cursor: pointer;
+	background-image: url("../../imagens/teste/feliz.svg");
+	background-size: cover;
+}
+
+.neutro {
+	width: 4em;
+	height: 4em;
+	cursor: pointer;
+	background-image: url("../../imagens/teste/neutro.svg");
+	background-size: cover;
+}
+
+.triste {
+	width: 4em;
+	height: 4em;
+	cursor: pointer;
+	background-image: url("../../imagens/teste/triste.svg");
+	background-size: cover;
+}
+
+.form:before {
+	gap: 0;
+}
+
+#resultado {
+	color: #2f165a;
+	text-align: center;
+}
+
+.resultado {
+	width: auto;
+	font-size: 3em;
+	padding-top: 1em;
+	text-align: center;
+	color: #592875;
+}
+
+#resultado p {
+	font-size: 2em;
+	color: #2f165a;
+}
+
+.parabens-esq {
+	position: absolute;
+	top: 60%;
+	left: 80%;
+	width: 6em;
+	height: 6em;
+	background-image: url("../../imagens/teste/confete_dir.png");
+	background-size: cover;
+}
+
+.parabens-dir {
+	position: absolute;
+	top: 60%;
+	left: 15%;
+	width: 6em;
+	height: 6em;
+	background-image: url("../../imagens/teste/confete_esq.png");
+	background-size: cover;
+}
+
+#voltar-end {
+	width: 12em;
+	height: 2.5em;
+	font-size: 1.2em;
+	background-color: #2f165a;
+	text-align: center;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.2s linear;
+}
+
+#voltar-endLINK {
+	position: fixed;
+	top: 40%;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: jost;
+	color: #f5f5f7;
+	cursor: pointer;
+	margin-top: 12em;
+}
+
+#voltar-end:hover {
+	background: #664997;
+	transition: all 0.2s linear;
+}
+
+.swal2-popup {
+	font-family: 'Jost', sans-serif;
+	text-align: center;
+}

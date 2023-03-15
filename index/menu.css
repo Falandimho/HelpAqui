@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+    
+.logo-menu{
+  height: 3em;
+	width: 3em;
+	position: absolute;
+  top: 0.5em;
+	left: 7%;
+  z-index: 1;
+}
+
+#menu {
+  width: 100%;
+  height: 4em;
+  background-color: #1E0B40;
+  position: fixed;
+  box-shadow: 1px 10px 4px #1717172c;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+}
+
+#menu a {
+	text-decoration: none;
+  color: #d4cbe4;
+}
+
+#menu a:hover {
+  color:#762EFF;
+}
+
+#menu ul {
+  text-align: center;
+  color: #d4cbe4;  
+  position: absolute;
+}
+
+#menu ul li {
+  display: inline;
+  padding-right: 1.6em;
+  font-size: 1.4em;
+  font-family: 'Jost', sans-serif;
+}
+
+#login-container {
+  width: 7.8em;
+  height: 50%;
+  border: 3px solid;
+  border-color: #d4cbe4;
+  border-radius: 25px;
+  background-color: #341768;
+  color: #d4cbe4;
+  box-shadow: 6px 6px 6px #180a2e;
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+  padding-top: 0.5em;
+  position: absolute;
+  left: 85%;
+  top: 0.5em;
+  cursor: pointer;
+}
+
+div#login-container:hover {
+  background-color: #d4cbe4;
+  color: #341768;
+  border: 3px solid;
+  border-color: #341768;
+}
+
+#perfil{
+	width: 2.5em;
+	height: 2.5em;
+	border: 2px solid #d4cbe4;
+	border-radius: 80%;
+	box-shadow: 6px 6px 6px #180a2e;
+	position: absolute;
+	top: 0.6em;
+	left: 90%;
+}
+
+#perfil:hover{
+	border: 2px solid #52318c;
+	box-shadow: 6px 6px 6px #180a2e;
+  transition: all 0.2s linear;
+}
+#perfil img{
+	width: 2.5em;
+	height: 2.5em;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+
+  
+
+  

@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.material-symbols-outlined {
+  
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 48,
+}
+
+body{
+	position: relative;
+	height: 100%;
+	margin: 0 0 100em;
+}
+
+html{
+	position: relative;
+	height: 100%;
+}
+
+footer{
+  width: 100%;
+	position: absolute;
+	top: 170%;
+	left: 0;
+  height: 15em;
+}
+ 
+#rodape{
+  width: 1920px;    
+  height: 15em;
+  padding-bottom: 1em;
+  background-color: #1E0B40;
+  font-family: 'Jost', sans-serif;
+  text-align: justify;
+  font-size: 1.2em;
+	color:#d4cbe4;
+  position: relative;
+  top: 200%;
+
+}
+
+.rodape{
+  width: 60%;
+	height: 10em;
+	position: absolute;
+	left: 28%;
+}
+
+#rodape a {
+	text-decoration: none;
+	color:#d4cbe4;
+}
+
+#rodape a:hover {
+  color:#762EFF;
+}
+
+#iconesuporte{
+	width: 10px;
+  position: absolute;
+  top: 6em;
+	font-size: 0.5em;
+}
+
+.titulo{
+  font-size: 1.3em;
+}
+
+#suporterodape{
+	width: fit-content;
+  position: absolute;
+  top: 1em;
+}
+
+#iniciorodape{
+  width: fit-content;
+  position: absolute;
+  top: 1em;
+	left: 18em;
+}
+
+.logo-rodape{
+	height: 8em;
+	width: 11em;
+	position: absolute;
+	left: 5%;
+  top: 0.5em;
+}
+
+#redes{
+	position: absolute;
+	left: 55%;
+	top: 2em;
+}
+
+#redes img{
+  width: 3em;
+	height: 3em;
+}

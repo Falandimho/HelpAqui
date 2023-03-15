@@ -1,0 +1,78 @@
+cortar fotos: https://watermarkly.com/app/crop-photo/
+
+icones: https://www.flaticon.com/br/
+
+#10328F
+#4F7EFF
+#2E5CDB
+#8F6701
+#DBAC34
+#2f165a -> texto login
+
+melhorar qualidade imagem -> https://zyro.com/br/ferramentas/upscaler-de-imagem
+
+fundo: https://bgjar.com
+
+1920x1080
+
+ajax das perguntas
+popup do perfil
+
+select icon.icone as 'icone' from usuario usu INNER JOIN icones icon ON icon.id = usu.id_img
+
+	SELECT icon.icone
+		FROM usuarios usu  
+	INNER JOIN icones icon ON icon.id = usu.id_img
+	WHERE email = ('anthony@gmail.com')
+
+	#tab2{
+	padding-top: 220px;
+	position: fixed;
+	bottom: 50px;
+}
+
+#tab3{
+	position: fixed;
+	bottom: 925px;
+}
+
+#tab4{
+	position: relative;
+	bottom: 1725px;
+}
+
+#tab5{
+	position: relative;
+	bottom: 2525px;
+}
+
+#tab6{
+	position: relative;
+	bottom: 3325px;
+}
+
+#tab7{
+	position: relative;
+	bottom: 4125px;
+}
+#tab8{
+	position: relative;
+	bottom: 4925px;
+}
+#tab9{
+	position: relative;
+	bottom: 5725px;
+}
+#tab10{
+	position: relative;
+	bottom: 6525px;
+}
+#tab11{
+	position: relative;
+	bottom: 7325px;
+}
+#tab12{
+	position: relative;
+	bottom: 8125px;
+}
+	
